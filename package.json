@@ -2,6 +2,7 @@
     "name": "min",
     "displayName": "min",
     "description": "Minimal theme with emphasized comments",
+    "publisher": "ii3i",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.60.0"
