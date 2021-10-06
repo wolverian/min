@@ -1,0 +1,21 @@
+{
+    "name": "min",
+    "displayName": "min",
+    "description": "Minimal theme with emphasized comments",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Min",
+                "uiTheme": "vs",
+                "path": "./themes/Min-color-theme.json"
+            }
+        ]
+    }
+}

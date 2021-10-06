@@ -1,0 +1,89 @@
+{
+	"name": "Min",
+	"type": "light",
+	"colors": {
+		"editor.background": "#EAE9E8",
+		"editor.foreground": "#333333",
+        "list.activeSelectionIconForeground": "#fff"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"punctuation.whitespace.comment"
+			],
+			"settings": {
+				"foreground": "#CA634B"
+			}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#5B5B5B"
+			}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#067D17"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#067D17"
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Strings: Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Strings: Symbols",
+			"scope": "constant.other.symbol",
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#5B5B5B"
+			}
+		},
+		{
+			"name": "Other",
+			"scope": "constant.other.haskell",
+			"settings": {
+				"foreground": "#333333"
+			}
+		}
+	]
+}
